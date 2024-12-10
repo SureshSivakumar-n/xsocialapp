@@ -3,10 +3,14 @@ package com.example.xmedia.service;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.example.xmedia.repository.*;
-import com.example.xmedia.entity.*;
+import com.example.xmedia.entity.Follower;
+import com.example.xmedia.entity.Post;
+import com.example.xmedia.entity.User;
+import com.example.xmedia.repository.FollowerRepository;
+import com.example.xmedia.repository.PostRepository;
+import com.example.xmedia.repository.UserRepository;
 
-import java.util.List;
+
 
 
 @Service
